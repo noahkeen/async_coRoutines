@@ -31,9 +31,9 @@
     Asio (can use non-boost) : https://think-async.com/Asio/asio-1.18.2/
         Installed to : /usr/local/asio-1.18.2/include (or update CMakeLists.txt)
         Configured with C++17+, coroutines. Eg:
-            sudo /usr/local/asio-1.18.2/configure CXXFLAGS=" -std=c++2a -fcoroutines"
-            sudo make
-            sudo make install
+            /usr/local/asio-1.18.2/configure CXXFLAGS=" -std=c++2a -fcoroutines"
+            make
+            make install
 
 #### Build:
     cmake3 .
